@@ -36,6 +36,10 @@ input {
   padding-left: 8px;
 }
 
+input:focus {
+  outline: 1px rgb(255, 102, 0) solid;
+}
+
 label {
   position: relative;
   font-size: 9px;
