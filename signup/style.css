@@ -2,3 +2,82 @@
   margin: 0px;
   padding: 0px;
 }
+
+body {
+  background-color: rgb(32, 92, 65);
+  padding: 40px;
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  margin: 0px;
+  text-align: center;
+}
+
+p {
+  padding-top: 10px;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 102, 0);
+}
+
+input {
+  width: 100%;
+  min-height: 30px;
+  margin-top: 2px;
+  min-width: max-content;
+  border: 1px rgb(180, 180, 180) solid;
+  border-radius: 5px;
+  padding-left: 8px;
+}
+
+label {
+  position: relative;
+  font-size: 9px;
+  display: block;
+  text-align: left;
+  margin-top: 15px;
+}
+
+button {
+  padding: 8px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgb(252, 128, 79);
+  border-style: hidden;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  width: 80%;
+}
+
+.signup {
+  background-color: white;
+  max-width: 23vh;
+  padding: 15px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.login {
+  margin-top: 10px;
+  color: white;
+}
+
+.terms {
+  font-size: 11px;
+}
+
+.icon {
+  position: absolute;
+  width: 15px;
+  top: 22px;
+  right: -5px;
+}
