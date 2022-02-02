@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1606247357835-d27fe83fc6a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3RhcnJ5JTIwbmlnaHR8ZW58MHx8MHx8&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-color: rgb(66, 66, 66);
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  background-color: rgb(168, 110, 34);
+  max-width: 850px;
+  margin: 0px auto;
+  padding: 1px 25px;
+}
+
+table {
+  background-color: white;
+  max-width: 850px;
+}
+
+table,
+td,
+th {
+  border: black 5px ridge;
+  border-collapse: collapse;
+}
+
+tr {
+  background-color: chocolate;
+}
+
+tr:nth-child(2n) {
+  background-color: rgb(141, 79, 31);
+}
+
+th {
+  background-color: rgb(90, 61, 40);
+}
+
+th {
+  color: white;
+}
+
+main img {
+  max-width: 550px;
+  margin: 20px;
+}
+
+main h2 {
+  text-align: center;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgb(168, 110, 34);
+  text-align: center;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  margin: 25px;
+  display: inline-block;
+}
+
+.box1 {
+  border: 5px white dotted;
+  background-color: purple;
+}
+.box2 {
+  border: 5px white double;
+  background-color: blue;
+}
+.box3 {
+  border-top: 5px green inset;
+  border-left: 5px rgb(134, 0, 0) inset;
+  border-right: 5px yellow inset;
+  border-bottom: 5px rgb(31, 9, 230) inset;
+  background-color: gray;
+}
+.box4 {
+  border: 5px white dashed;
+  background-color: rgb(110, 190, 110);
+  border-radius: 15px;
+}
+
+.box5 {
+  border: 5px white dotted;
+  border-radius: 50%;
+  background-color: rgb(189, 82, 82);
+}

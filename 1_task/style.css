@@ -1,0 +1,26 @@
+/* ELEMENT styles every element of that type */
+body {
+  background-color: aquamarine;
+}
+
+/* ID is used for JavaScript and they are unique so can be used only once in HTML tag */
+#my_id {
+  color: darkgoldenrod;
+}
+
+/* CLASS is used to style elements and can be used in many elements with the same class */
+.my_class {
+  color: blue;
+}
+
+.paragraph {
+  color: darkorchid;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  background-color: aqua;
+}
+
+/* With styles last one stands so if multiple same elements/id's/classes are defined the last is taken into account */
