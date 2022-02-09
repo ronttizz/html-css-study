@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+}
+
+h1::after {
+  content: "mobile 576-767";
+  color: white;
+}
+
+/* Media queries */
+
+/* Small devices first */
+
+@media (min-width: 768px) {
+  body {
+    background-color: rgb(51, 41, 41);
+  }
+
+  h1::after {
+    content: "mobile 768-991px";
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    background-color: rgb(100, 57, 57);
+  }
+
+  h1::after {
+    content: "desktop 992-1199px";
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: rgb(196, 29, 29);
+  }
+
+  h1::after {
+    content: "desktop over 1200px";
+    color: black;
+  }
+}
