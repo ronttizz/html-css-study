@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(206, 168, 0);
+  padding: 1rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: rgb(0, 77, 4);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: aqua;
+  text-decoration: underline dotted;
+}
+
+h1:hover {
+  color: blueviolet;
+  text-decoration: underline dashed;
+  cursor: pointer;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-style: dotted;
+}
+
+.box:hover {
+  background-color: blue;
+  border-style: double;
+  border-color: black;
+  border-radius: 1rem;
+}
+
+p:nth-child(2n) {
+  color: chartreuse;
+  font-weight: bold;
+}
+
+h1::before {
+  content: "";
+  display: block;
+  background-color: red;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border-width: 2px;
+  border-color: black;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  background-color: red;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.absolute {
+  position: absolute;
+  background-color: aqua;
+  bottom: 0;
+  left: 0;
+}
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 2rem;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+.relative {
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+
+.modal {
+  min-height: 150px;
+  width: 400px;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  position: relative;
+}
+
+.modal button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.material-icons {
+  color: yellow;
+  font-size: 0.5rem;
+}
