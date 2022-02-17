@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#mobileButton {
+  display: none;
+}
+
+header {
+  display: flex;
+  background-color: rgb(27, 146, 150);
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  left: 0;
+}
+
+.bg {
+  background-color: rgb(18, 99, 102);
+  color: rgb(48, 25, 25);
+}
+
+.bg a {
+  color: rgb(48, 25, 25);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav > ul > li {
+  display: inline;
+  padding: 0.75rem;
+}
+nav > ul > li:hover {
+  background-color: rgb(4, 138, 115);
+}
+
+section {
+  scroll-margin-top: 4.5rem;
+  min-height: 50vh;
+  background-color: rgb(27, 146, 150);
+  padding: 1.5rem;
+}
+
+section:nth-child(2n) {
+  background-color: rgb(18, 99, 102);
+}
+
+#backtotop {
+  border-radius: 50%;
+  padding: 0px;
+  width: 3rem;
+  height: 3rem;
+  border: 3px solid black;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  background-color: rgb(18, 99, 102);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  display: none;
+}
+
+#backtotop:hover {
+  background-color: rgb(27, 146, 150);
+}
+
+#hidden {
+  display: none;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2rem;
+  background-color: black;
+}
+
+@media (max-width: 576px) {
+  #mobileButton {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+  }
+  nav.responsive ul {
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 85px;
+    width: 100vw;
+    display: block;
+  }
+  nav.responsive ul li {
+    display: block;
+  }
+  nav.responsive a {
+    color: black;
+    display: block;
+  }
+}
