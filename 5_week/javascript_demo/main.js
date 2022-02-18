@@ -11,9 +11,11 @@ scrollFunction = () => {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     header.classList.add("bg");
     button.style.display = "block";
+    mobButton.style.color = "black";
   } else {
     header.classList.remove("bg");
     button.style.display = "none";
+    mobButton.style.color = "white";
   }
 };
 

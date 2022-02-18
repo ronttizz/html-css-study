@@ -103,6 +103,9 @@ footer {
 @media (max-width: 576px) {
   #mobileButton {
     display: block;
+    background-color: transparent;
+    border: none;
+    color: white;
   }
 
   nav ul {
