@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100;400;700&display=swap");
 
 :root {
-  --bg-color: bisque;
+  --bg-color: radial-gradient(red, black);
   --font: "Smooch Sans", sans-serif;
   --primary-color: aliceblue;
 }
 
 body {
-  background-color: var(--bg-color);
+  background: var(--bg-color) no-repeat fixed;
   font-family: var(--font);
+  color: white;
 }
 
 h1 {
@@ -26,6 +27,7 @@ h1 {
   background-color: var(--primary-color);
   border-radius: 5px;
   min-height: 100px;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
