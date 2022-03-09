@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100;400;700&display=swap");
+
+:root {
+  --bg-color: bisque;
+  --font: "Smooch Sans", sans-serif;
+  --primary-color: aliceblue;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: var(--font);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.card {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
